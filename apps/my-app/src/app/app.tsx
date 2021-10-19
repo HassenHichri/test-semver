@@ -2,6 +2,7 @@ import styles from './app.module.css';
 
 import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
+import { MyLib } from '@semvertest/my-lib';
 
 export function App() {
   return (
@@ -10,6 +11,7 @@ export function App() {
         <Logo width="75" height="75" />
         <h1>Welcome to my-app!</h1>
       </header>
+      <MyLib/>
       <main>
         <h2>Resources &amp; Tools</h2>
         <p>Thank you for using and showing some ♥ for Nx.</p>
