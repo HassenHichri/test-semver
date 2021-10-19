@@ -4,7 +4,6 @@ import './my-lib.module.css';
 export interface MyLibProps {}
 
 export function MyLib(props: MyLibProps) {
-  console.log('test semver');
   return (
     <div>
       <h1>Welcome to MyLib!</h1>

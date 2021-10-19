@@ -143,7 +143,11 @@
           }
         },
         "version": {
-          "executor": "@jscutlery/semver:version"
+          "executor": "@jscutlery/semver:version",
+          "options": {
+            "baseBranch": "master",
+            "postTargets": ["my-lib:build"]
+          }
         }
       }
     }
